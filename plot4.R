@@ -20,7 +20,7 @@ plot(plot4$DateTime, plot4$Global_active_power, type="l",
 
 # Plot 2 
 
-plot(plot4$Time, plot4$Voltage, type="l",
+plot(plot4$DateTime, plot4$Voltage, type="l",
      xlab="datetime", ylab="Voltage")
 
 # Plot 3
